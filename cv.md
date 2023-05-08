@@ -10,3 +10,9 @@
 # Summary
 I have excellent mathematical abilities. I work at the Institute of Mechanics of Moscow State University, where I develop RealBAC. 
 I am easily trained and quickly adapt to new conditions.
+
+# Skills
+* Python, C++, Javascript
+* Django, MPI
+* GitHub
+* VScode

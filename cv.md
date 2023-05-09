@@ -32,3 +32,9 @@ np.savetxt(out, data, delimiter=',', fmt='%g')
 file.close()
 out.close()
 ```
+# Education
+* Lomonosov Moscow State University, Faculty Mathematics and Mechanics
+# Experience
+I have been working at the Institute of Mechanics in the "ИСТИНА" development team for a year now.
+# English
+B1

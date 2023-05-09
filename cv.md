@@ -16,3 +16,19 @@ I am easily trained and quickly adapt to new conditions.
 * Django, MPI
 * GitHub
 * VScode
+
+# Code examples
+```
+import numpy as np
+file = open('input.csv')
+out = open('output.csv', 'w')
+
+data = np.genfromtxt(file, delimiter=',', dtype=int)
+for i in range(30):
+  print(np.mean(data[:, i:i+1]))
+  data[0, i] = 1.5*np.mean(data[:, i:i+1])
+np.savetxt(out, data, delimiter=',', fmt='%g')
+
+file.close()
+out.close()
+```
